@@ -1,7 +1,8 @@
 {
   "name": "2-camel-case",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "library for converting an object or array to the camelcase style",
+  "repository": "https://github.com/sovarim/2-camel-case",
   "main": "index.js",
   "license": "MIT",
   "type": "module",
