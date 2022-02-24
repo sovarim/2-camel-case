@@ -2,7 +2,7 @@ import camelCase from 'camelcase';
 
 const toCamelCase = (data) => {
   const objectToCamelCase = (obj) => {
-    if (typeof obj !== 'object') return data;
+    if (typeof obj !== 'object') return obj;
     const entries = Object.entries(obj).map(([key, value]) => {
       if (value && typeof value === 'object') {
         return [camelCase(key), toCamelCase(value)];
